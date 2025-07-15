@@ -25,7 +25,7 @@
 - Проект должен разворачиваться и работать через docker-compose. Для этого можно использовать Laravel Sail или собственную сборку.
 
 Инструкция:
-1. git clone
+1. git clone https://github.com/aleks-shar/chats_messages_on_laravel_12.git
 2. docker run --rm \
    -u "$(id -u):$(id -g)" \
    -v "$(pwd):/var/www/html" \
